@@ -1,0 +1,26 @@
+{
+  "name": "nft-marketplace",
+  "version": "1.0.0",
+  "description": "This is a NFT marketplace project where user can list thier nfts(ERC721) on the marketplace and other can buy those nfts only from the NFTToken(ERC20) this marketplace also implements the concept of lazy mintig logacilly without using metatransactions or EIP712 where user can list their NFT on the marketplace without listing it on the blockchain, so they don't have to pay the gas fees, when buyer buys the NFT from  the marketplace NFT will be minted to the buyer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keshavm-30/NFT-Marketplace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keshavm-30/NFT-Marketplace/issues"
+  },
+  "homepage": "https://github.com/Keshavm-30/NFT-Marketplace#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.10.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3"
+  }
+}
